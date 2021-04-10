@@ -1,0 +1,16 @@
+.Wrapper {
+    background: url('../../Assets/challenge-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ChallengesForm {
+    padding: 0px 30px;
+}

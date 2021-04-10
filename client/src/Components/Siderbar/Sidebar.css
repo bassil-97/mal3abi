@@ -1,0 +1,18 @@
+.drawer-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
+.train {
+    background-image: url("../../Assets/train.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    box-shadow: '0 0 4px #ADADAD';
+    padding: 26px;
+    font-family: 'Raleway', sans-serif;
+}

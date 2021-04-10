@@ -1,0 +1,107 @@
+body {
+    
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.showTeamBtn {
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    z-index: 3;
+}
+
+.leftSide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100vh;
+    background: url('../../Assets/left.png') center no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+
+.rightSide {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100vh;
+    background: url('../../Assets/right.png') center no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+
+.myTeam-body {
+    width: 100%;
+    height: 100vh;
+    padding: 36px;
+}
+
+.captinStar:hover {
+    color: yellow;
+}
+
+#testScroll::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #CDDC39;
+	border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#testScroll::-webkit-scrollbar {
+    width: 10px;
+	background-color: #F5F5F5;
+}
+
+#testScroll::-webkit-scrollbar-thumb
+{
+	background-color: #B2BF2D;
+	border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+	background-image: -webkit-linear-gradient(90deg,
+	                                          rgba(0, 0, 0, .2) 25%,
+											  transparent 25%,
+											  transparent 50%,
+											  rgba(0, 0, 0, .2) 50%,
+											  rgba(0, 0, 0, .2) 75%,
+											  transparent 75%,
+											  transparent)
+}
+
+.myTeam-body .myTeam-header .box {
+    width: 100%;
+    height: 100px;
+    padding: 26px;
+    background-color: red;
+}
+
+.teamSettings {
+    color: white;
+    font-family: 'Raleway';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.teamSettingsWrapper .col-lg-6 {
+    padding: 0px;
+}
+
+.team-information {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 16px;
+    border-radius: 30px;
+    background: #ebebeb;
+    box-shadow:  5px 5px 11px #a5a5a5,
+             -5px -5px 11px #ffffff;
+}
+

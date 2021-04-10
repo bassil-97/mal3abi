@@ -1,0 +1,13 @@
+.test {
+    background-image: url('../../Assets/tour-bg1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.tournamentForm {
+    padding: 26px;
+    width: 70%;
+    margin: 0 auto;
+}

@@ -1,0 +1,48 @@
+.container {
+    height: 89.8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("../../Assets/tou-rlogin.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+
+.loginForm {
+    padding: 30px;
+    margin: 0 auto;
+    width: 40%;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-image: url("../../Assets/26507.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.loginBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1220px) {
+    .loginForm {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .loginBtn {
+        flex-direction: column;
+    }
+     
+    .loginBtn small {
+        margin-top: 10px;
+    }
+}
